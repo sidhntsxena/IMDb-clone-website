@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url('https://images.pexels.com/photos/7991486/pexels-photo-7991486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  /* height: 100vh;
+  width: 100vw; */
+  background-size: cover;
+  background-attachment: fixed;
+  color: antiquewhite;
+  text-align: center;
+  width: 97%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#appName{
+  /* background-image: linear-gradient(to right, yellow 50%, black 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; */
+  /* background-color: #dad7a1; */
+  color: yellow;
+  /* background-image: linear-gradient(45deg, #b7b740, #d5406b); */
+  background-size: 100%;
+  /* -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent; */
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 91px;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid #e5e5e5; */
+  }
+  li{
+    justify-content: space-between;
+    overflow: hidden;
+    max-width: 300px;
+    max-height: 650px;
+    min-width: 300px;
+    color: #f3f3f3;
+    display: flex;
+    background-color: black ;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: no-wrap;
+    border-radius: 40px;
+  }
+  li img{
+    width: 200px;
+ 
+    height: 350px;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  li #type{
+    /* margin-top: 20%; */
+    min-width: 140px;
+
+    
+    
+  }
+  li #movieTitle:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  #deleteBtn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(238, 229, 229);
+    padding: 16px;
+    /* font-size: 20px; */
+    margin: 5px;
+    margin-bottom: 10px;
+    /* min-width: 120px; */
+    border: none;
+    border-radius: 40%;
+    /* min-width: 550px */
+  }
+  #deleteBtn:hover {
+    color: rgb(203, 14, 10);
+ 
+    text-decoration: underline;
+    transition-delay: 1s, 300ms;
+    transition-property: text-decoration, background-color;
+    cursor: pointer; 
+  }
